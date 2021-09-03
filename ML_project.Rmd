@@ -1,0 +1,25 @@
+---
+title: "ML Report"
+author: "Omar Alfaro-Rivera"
+date: "2/9/2021"
+output: html_document
+---
+
+## Read the data 
+
+```{r data, include = FALSE}
+train = read.csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv")
+```
+
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r test, include = FALSE}
+test = read.csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv")
+
+```
