@@ -9,6 +9,12 @@ output: html_document
 
 ```{r data, include = FALSE}
 train = read.csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv")
+
+Y_train = factor(train[, "classe"])
+
+table(Y_train)
+
+hist(Y_train)
 ```
 
 
